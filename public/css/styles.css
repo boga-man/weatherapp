@@ -64,3 +64,8 @@ p#forecast{
     overflow: auto;
 }
 
+p#place{
+    font-size: smaller;
+    color: gray;
+}
+
