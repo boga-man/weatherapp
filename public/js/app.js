@@ -1,5 +1,3 @@
-console.log('this is the client-side js file that is served up by express nodejs server')
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const forecastPlaceholder = document.querySelector('p#forecast')
