@@ -9,6 +9,10 @@ body{
     min-height: 100vh;
 }
 
+*:focus{
+    outline: none;
+}
+
 html{
     background-color: rgb(255, 246, 234);
 }
@@ -27,7 +31,6 @@ h1.heading{
 img.portrait{
     width: 250px;
     margin: 10px;
-    /* padding: 0 30px; */
 }
 
 a{
@@ -62,10 +65,43 @@ div.wrapper{
 p#forecast{
     width: 400px;
     overflow: auto;
+    margin-top: 40px;
 }
 
 p#place{
     font-size: smaller;
     color: gray;
 }
+
+button{
+    border: none;
+    background-color: rgb(106, 48, 148);
+    color: white;
+    width: 80px;
+    height: 40px;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+input{
+    height: 25px;
+    background-color: rgb(255, 246, 234);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+    letter-spacing: 0.3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form{
+    margin-top: 50px;
+}
+
 
